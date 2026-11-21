@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Marina Ch. – Financial health checks for small businesses</title>
+<meta name="description" content="Margin, receivables and inventory analysis for small businesses, reviewed the way an auditor would.">
+<style>
+:root{--ink:#14233b;--muted:#51607a;--paper:#f7f8fa;--line:#d9dfe8;--teal:#0f766e;--flag:#b45309;--white:#fff}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+h1,h2,h3{font-family:Charter,"Iowan Old Style",Georgia,serif;line-height:1.2;margin:0 0 .5em}
+h1{font-size:clamp(2rem,5vw,3.2rem);max-width:20ch}
+h2{font-size:1.6rem}
+h3{font-size:1.15rem}
+p{margin:0 0 1em;max-width:62ch}
+a{color:var(--teal)}
+a:focus-visible,.btn:focus-visible{outline:3px solid var(--teal);outline-offset:3px}
+.wrap{max-width:980px;margin:0 auto;padding:0 22px}
+header{padding:20px 0;border-bottom:1px solid var(--line)}
+header .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+.brand{font-family:Charter,Georgia,serif;font-weight:700;font-size:1.1rem}
+nav a{margin-left:18px;text-decoration:none;color:var(--ink)}
+nav a:hover{color:var(--teal)}
+.hero{padding:64px 0 48px}
+.hero p.lead{font-size:1.2rem;color:var(--muted)}
+.btn{display:inline-block;background:var(--ink);color:var(--white);padding:12px 22px;border-radius:6px;text-decoration:none;font-weight:600}
+.btn:hover{background:var(--teal)}
+.sample{background:var(--white);border:1px solid var(--line);border-radius:8px;padding:24px;margin:40px 0 0}
+.sample h3{margin-bottom:.2em}
+.sample small{color:var(--muted)}
+.row{display:grid;grid-template-columns:110px 1fr 90px;gap:12px;align-items:center;margin-top:12px;font-size:.95rem}
+.bar{height:16px;background:var(--line);border-radius:3px;overflow:hidden}
+.bar span{display:block;height:100%;background:var(--teal)}
+.bar span.warn{background:var(--flag)}
+.row b{text-align:right;font-variant-numeric:tabular-nums}
+.note{margin:18px 0 0;padding-top:14px;border-top:1px solid var(--line);font-size:.95rem}
+section{padding:48px 0;border-top:1px solid var(--line)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:28px}
+.price{color:var(--muted);font-size:.95rem}
+ul{padding-left:1.1em;margin:0 0 1em}
+li{margin-bottom:.35em}
+footer{padding:28px 0 40px;color:var(--muted);font-size:.9rem;border-top:1px solid var(--line)}
+@media(max-width:560px){.row{grid-template-columns:90px 1fr 70px;font-size:.85rem}nav a{margin:0 14px 0 0}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <span class="brand">Marina Ch.</span>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<div class="wrap hero">
+  <h1>Know where your margin, cash and stock are going.</h1>
+  <p class="lead">I review your sales, receivables and inventory the way an auditor would, then give you a short list of actions that improve profit and cash.</p>
+  <a class="btn" href="https://forms.gle/gVnAsTLcjhVTUuG78">Fill out a short questionnaire</a>
+
+  <div class="sample" aria-label="Sample findings">
+    <h3>What a finding looks like</h3>
+    <small>Sample data for illustration. Not a real client.</small>
+    <div class="row"><span>Current</span><div class="bar"><span style="width:62%"></span></div><b>62%</b></div>
+    <div class="row"><span>1–30 days</span><div class="bar"><span style="width:18%"></span></div><b>18%</b></div>
+    <div class="row"><span>31–60 days</span><div class="bar"><span style="width:9%"></span></div><b>9%</b></div>
+    <div class="row"><span>60+ days</span><div class="bar"><span class="warn" style="width:11%"></span></div><b>11%</b></div>
+    <p class="note">Receivables aging: 11% of what customers owe is over 60 days late, and two customers make up most of it. Action: tighten their payment terms and start collection calls this week.</p>
+  </div>
+</div>
+
+<section id="services">
+  <div class="wrap">
+    <h2>Services</h2>
+    <div class="grid">
+      <div>
+        <h3>Financial health check</h3>
+        <p class="price">One-time project, fixed price</p>
+        <p>A full review of your numbers, delivered as a workbook and a short written report.</p>
+        <ul>
+          <li>Revenue by product, customer and month</li>
+          <li>Gross margin by product line, and where it leaks</li>
+          <li>Receivables aging, days sales outstanding, customers at risk</li>
+          <li>Inventory turnover, days on hand, slow and dead stock</li>
+          <li>The 3 to 5 actions with the biggest impact</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Monthly reporting</h3>
+        <p class="price">Recurring, fixed monthly fee</p>
+        <p>The same analysis every month, with plain-language commentary, so you see problems while they are still small.</p>
+        <ul>
+          <li>Updated dashboard workbook</li>
+          <li>Month-on-month changes explained</li>
+          <li>A short call to walk through the results</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap">
+    <h2>About</h2>
+    <p>I am a finance professional with experience in accounting outsourcing at Mazars and in audit at Deloitte. In outsourcing I kept clients' books and closed their months. In audit I tested whether numbers could be trusted.</p>
+    <p>That combination is what I bring to your business: analysis built on clean records, and a habit of checking the numbers before drawing conclusions. I work remotely with clients and keep all of your data confidential.</p>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <h2>Contact</h2>
+    <p>The quickest way to start is a short questionnaire about your business and the numbers that worry you. I will reply within one business day and suggest what to review first.</p>
+    <p><a class="btn" href="https://forms.gle/gVnAsTLcjhVTUuG78">Fill out a short questionnaire</a></p>
+    <p>Prefer email? Write to <a href="mailto:marina.spitsyna90@gmail.com">marina.spitsyna90@gmail.com</a>.</p>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">© 2026 Marina Ch. · Financial analysis services</div>
+</footer>
+</body>
+</html>
